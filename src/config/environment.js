@@ -3,7 +3,7 @@ dotenv.config();
 
 // Validación defensiva fail-fast
 const requiredVars = ["PG_HOST", "PG_DATABASE", "PG_USER"];
-const missingVars = requiredVars.filter((v) => !process.env[v]);
+const missingVars = requiredVars.filter(v => !process.env[v]);
 
 if (missingVars.length > 0) {
   console.warn(
