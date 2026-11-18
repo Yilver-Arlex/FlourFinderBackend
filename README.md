@@ -140,8 +140,6 @@ backend/
 
 ### GET /api/health
 
-Endpoint de diagnóstico para verificar la salud del sistema y latencia de PostgreSQL.
-
 **Ejemplo de respuesta:**
 
 ```json
@@ -160,18 +158,6 @@ Endpoint de diagnóstico para verificar la salud del sistema y latencia de Postg
   }
 }
 ```
-
----
-
-## Próximas Funcionalidades (Roadmap)
-
-- [ ] Registro de establecimientos (panaderías, reposterías, etc.)
-- [ ] Catálogo de productos disponibles
-- [ ] Sistema de búsqueda y filtrado por ubicación
-- [ ] Carrito de compras y pedidos
-- [ ] Integración con pasarela de pagos
-- [ ] Panel administrativo para gestión de establecimientos
-- [ ] Expansión a otros municipios
 
 ---
 
